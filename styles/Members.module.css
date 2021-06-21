@@ -1,0 +1,33 @@
+.container{
+    margin:auto;
+    margin-top: 5%;
+}
+
+.content{
+    padding: 1% 4%;
+
+}
+
+.others{
+    column-count: 3;
+    margin-top: 4rem;
+}
+
+.leaders{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    .others{
+        column-count: 2;
+    }
+}
+
+@media (max-width: 800px){
+    .others{
+        column-count: 3;
+    }
+}
